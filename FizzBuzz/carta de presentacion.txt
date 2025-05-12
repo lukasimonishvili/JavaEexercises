@@ -1,0 +1,11 @@
+Soy un Desarrollador Full-Stack con más de tres años de experiencia creando aplicaciones web modernas utilizando tecnologías 
+como React, Angular, Node.js y .NET. Actualmente estoy abierto a nuevas oportunidades, ya sea en remoto o presencial en España.
+
+He trabajado tanto en equipos como de forma independiente como freelancer, encargándome de todo, desde el desarrollo de 
+interfaces hasta la lógica del backend y el diseño de APIs. Sigo buenas prácticas de código limpio, desarrollo aplicaciones 
+bien testeadas y disfruto colaborando en equipos ágiles.
+
+Gracias por tu tiempo. Espero poder conectar con empresas innovadoras que valoren la calidad y el desarrollo bien hecho.
+
+Un cordial saludo,
+Luka.
