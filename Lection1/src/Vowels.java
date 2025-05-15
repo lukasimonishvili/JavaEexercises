@@ -9,12 +9,12 @@ public class Vowels {
         String result = "";
 
         for(int i = 0; i < textLoweCase.length(); i++) {
-            Character chararacter = textLoweCase.charAt(i);
-            if(charList.indexOf(chararacter) > -1) {
-                if(counter.containsKey(chararacter)) {
-                    counter.put(chararacter, counter.get(chararacter) + 1);
+            Character character = textLoweCase.charAt(i);
+            if(charList.indexOf(character) > -1) {
+                if(counter.containsKey(character)) {
+                    counter.put(character, counter.get(character) + 1);
                 }else {
-                    counter.put(chararacter, 1);
+                    counter.put(character, 1);
                 }
                 totalVowels++;
             }

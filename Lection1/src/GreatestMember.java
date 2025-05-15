@@ -19,17 +19,17 @@ public class GreatestMember {
 
     public void testGreatestMember() {
         if(!assertEquals(new int[]{1, 7, 22, 8, 9, 12, 23, 66, 109, 12, 0}, 109)) {
-            System.err.println("Test failed: greatest number didn`t found correctly");
+            System.err.println("Test failed: greatest number didn't found correctly");
             return;
         }
 
         if(!assertEquals(new int[]{1, 7, 22, 8, 9, 12, 23, 66, 12, 0}, 66)) {
-            System.err.println("Test failed: greatest number didn`t found correctly");
+            System.err.println("Test failed: greatest number didn't found correctly");
             return;
         }
 
         if(!assertEquals(new int[]{1, 7, 22, 8, 9, 12, 23, 12, 0}, 23)) {
-            System.err.println("Test failed: greatest number didn`t found correctly");
+            System.err.println("Test failed: greatest number didn't found correctly");
             return;
         }
 
