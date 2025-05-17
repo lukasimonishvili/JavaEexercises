@@ -8,6 +8,7 @@ public class Main {
     public static InvertArray invertArray = new InvertArray();
     public static SortArray sortArray = new SortArray();
     public static Calculator calculator = new Calculator();
+    public static PasswordGenerator passwordGenerator = new PasswordGenerator();
 
     public static void main(String[] args) {
 
@@ -32,5 +33,8 @@ public class Main {
 
         calculator.calculator();
         calculator.testCalculator();
+
+        passwordGenerator.GeneratePassword();
+        passwordGenerator.testPasswordGenerator();
     }
 }
