@@ -15,6 +15,7 @@ public class Main {
     public static CharacterReplacer characterReplacer = new CharacterReplacer();
     public static PrimeNumbers primeNumbers = new PrimeNumbers();
     public static SearchWordInSentence searchWordInSentence = new SearchWordInSentence();
+    public static Temperature temperature = new Temperature();
 
     public static void main(String[] args) {
 
@@ -59,5 +60,8 @@ public class Main {
 
         searchWordInSentence.searchWordInSentence();
         searchWordInSentence.testWordFinder();
+
+        temperature.temperature();
+        temperature.testTemperatureConverter();
     }
 }
