@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -16,8 +18,9 @@ public class Main {
     public static PrimeNumbers primeNumbers = new PrimeNumbers();
     public static SearchWordInSentence searchWordInSentence = new SearchWordInSentence();
     public static Temperature temperature = new Temperature();
+    public static TextAnalyser textAnalyser = new TextAnalyser();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         int factorialNumber = factorial.factorial(5);
         System.out.println(factorialNumber);
@@ -63,5 +66,7 @@ public class Main {
 
         temperature.temperature();
         temperature.testTemperatureConverter();
+
+        textAnalyser.textAnalyser();
     }
 }

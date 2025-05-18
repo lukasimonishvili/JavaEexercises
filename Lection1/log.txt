@@ -1,0 +1,14 @@
+Input - hello world my friend
+ Characters - 21
+ Words - 4
+ Longest word - friend
+ Vowels - 6
+ Polindrome - false
+ 
+Input - anita lava la tina
+ Characters - 18
+ Words - 4
+ Longest word - anita
+ Vowels - 8
+ Polindrome - true
+ 

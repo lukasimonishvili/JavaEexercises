@@ -1,4 +1,4 @@
-public class Palindrome {
+public class Palindrome extends Vowels{
     public Boolean palidnrome(String text) {
         for(int i = 0; i < text.length() / 2; i++) {
             if(text.charAt(i) != text.charAt(text.length() - 1 - i)){
