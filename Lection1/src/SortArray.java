@@ -113,18 +113,18 @@ public class SortArray {
 
     private void testBubbleSort() {
         if(!bubbleSort(new int[]{5, 1, 23, 55, -1, 8, 3, 22, 19, 0}).equals("[-1, 0, 1, 3, 5, 8, 19, 22, 23, 55]")) {
-            System.out.println("Bubble sort failed");
+            System.err.println("Bubble sort failed");
         }
     }
     private void testMergesort() {
         if(!mergeSort(new int[]{5, 1, 23, 55, -1, 8, 3, 22, 19, 0}).equals("[-1, 0, 1, 3, 5, 8, 19, 22, 23, 55]")) {
-            System.out.println("Merge sort failed");
+            System.err.println("Merge sort failed");
         }
     }
 
     private void testQuickSort() {
         if(!quickSort(new int[]{5, 1, 23, 55, -1, 8, 3, 22, 19, 0}, 0, 9).equals("[-1, 0, 1, 3, 5, 8, 19, 22, 23, 55]")) {
-            System.out.println("Merge sort failed");
+            System.err.println("Merge sort failed");
         }
     }
 

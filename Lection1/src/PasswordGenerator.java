@@ -55,10 +55,10 @@ public class PasswordGenerator {
         String passwordWithoutSpecial = PasswordMaker(8, false);
 
         if(!passwordWithoutSpecial.matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).+$")) {
-            System.out.println("Test failed: generated password doesn't match requirements");
+            System.err.println("Test failed: generated password doesn't match requirements");
             return;
         }else if(!passwordWithSpecial.matches("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()\\\\-_=+<>?]).+$")) {
-            System.out.println("Test failed: generated password doesn't match requirements - speacial");
+            System.err.println("Test failed: generated password doesn't match requirements - speacial");
             return;
         }
 

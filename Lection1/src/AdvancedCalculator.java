@@ -35,17 +35,17 @@ public class AdvancedCalculator {
 
     public void testCalculator() {
         if(compute("5 2 mod") != 1) {
-            System.out.println("Test failed, wrong calculation");
+            System.err.println("Test failed, wrong calculation");
             return;
         }
 
         if(compute("3 3 power") != 27) {
-            System.out.println("Test failed, wrong calculation");
+            System.err.println("Test failed, wrong calculation");
             return;
         }
 
         if(compute("25 sqrt") != 5) {
-            System.out.println("Test failed, wrong calculation");
+            System.err.println("Test failed, wrong calculation");
             return;
         }
 

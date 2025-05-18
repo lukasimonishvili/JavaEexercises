@@ -20,17 +20,17 @@ public class CharacterReplacer {
 
     public void testReplacer() {
         if(!replacer("hello world", "l", "t").equals("hetto wortd")) {
-            System.out.println("Test failed. characters replaced incorrectly");
+            System.err.println("Test failed. characters replaced incorrectly");
             return;
         }
 
         if(!replacer("hello world", "h", "b").equals("bello world")) {
-            System.out.println("Test failed. characters replaced incorrectly");
+            System.err.println("Test failed. characters replaced incorrectly");
             return;
         }
 
         if(!replacer("hello world", "o", "q").equals("hellq wqrld")) {
-            System.out.println("Test failed. characters replaced incorrectly");
+            System.err.println("Test failed. characters replaced incorrectly");
             return;
         }
 

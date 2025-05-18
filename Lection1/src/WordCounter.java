@@ -26,17 +26,17 @@ public class WordCounter {
 
     public void testWordCounter() {
         if(!counter("hello world").equals("words: 2 vowels: 0")){
-            System.out.println("Test failed. wrong word count");
+            System.err.println("Test failed. wrong word count");
             return;
         }
 
         if(!counter("if you are good at coding say yes").equals("words: 8 vowels: 5")){
-            System.out.println("Test failed. wrong word count");
+            System.err.println("Test failed. wrong word count");
             return;
         }
 
         if(!counter("amount of words here is surprising").equals("words: 6 vowels: 3")){
-            System.out.println("Test failed. wrong word count");
+            System.err.println("Test failed. wrong word count");
             return;
         }
 
