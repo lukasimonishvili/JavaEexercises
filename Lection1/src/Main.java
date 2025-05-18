@@ -12,6 +12,7 @@ public class Main {
     public static AdvancedCalculator advancedCalculator = new AdvancedCalculator();
     public static AdvancedPolindrome advancedPolindrome = new AdvancedPolindrome();
     public static WordCounter wordCounter = new WordCounter();
+    public static CharacterReplacer characterReplacer = new CharacterReplacer();
 
     public static void main(String[] args) {
 
@@ -47,5 +48,8 @@ public class Main {
 
         wordCounter.wordCounter();
         wordCounter.testWordCounter();
+
+        characterReplacer.characterReplacer();
+        characterReplacer.testReplacer();
     }
 }
