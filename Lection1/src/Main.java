@@ -40,8 +40,8 @@ public class Main {
 //
 //        sortArray.sortArray(new int[]{5,1,23,55,-1,8,3, 22, 19, 0});
 //        sortArray.testSortArray();
-//
-//        calculator.calculator();
+
+        calculator.calculator();
 //        calculator.testCalculator();
 //
 //        passwordGenerator.GeneratePassword();
@@ -49,9 +49,9 @@ public class Main {
 //
 //        advancedCalculator.calculator();
 //        advancedCalculator.testCalculator();
-
-        advancedPolindrome.advancedPolindrome("A mamá Roma le aviva el amor a mamá.");
-
+//
+//        advancedPolindrome.advancedPolindrome("A mamá Roma le aviva el amor a mamá.");
+//
 //        wordCounter.wordCounter();
 //        wordCounter.testWordCounter();
 //

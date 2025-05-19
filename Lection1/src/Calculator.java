@@ -1,87 +1,88 @@
 import java.util.Scanner;
-import java.util.function.BiFunction;
 
 public class Calculator {
-    private int Add(int number1, int number2) {
-        int result = number1 + number2;
-        System.out.println("result: " + result);
-        return  result;
+    private String numberParser(int index, String input, String operation) {
+        String left = "";
+        String right = "";
+
+
+        for(int i = index - 1; i >= 0; i--) {
+            if(Character.toString(input.charAt(i)).matches("^[0-9.]+$")){
+                left = input.charAt(i) + left;
+            }else {
+                break;
+            }
+        }
+
+        for(int i = index + 1; i < input.length(); i++) {
+            if(Character.toString(input.charAt(i)).matches("^[0-9.]+$")){
+                right += input.charAt(i);
+            }else {
+                break;
+            }
+        }
+        Double leftDouble = Double.valueOf(left);
+        Double rightDouble = Double.valueOf(right);
+        double result = operation.equals("*") ? leftDouble * rightDouble :
+                        operation.equals("/") ? leftDouble / rightDouble :
+                        operation.equals("+") ? leftDouble + rightDouble :
+                        leftDouble - rightDouble;
+
+        return input.replace(left + operation + right, Double.toString(result));
     }
 
-    private int Decrease(int number1, int number2) {
-        int result = number1 - number2;
-        System.out.println("result: " + result);
-        return  result;
+    private double calculate(String input) {
+        while(input.contains("(")) {
+            int left = input.indexOf("(");
+            int right = -1;
+            int nestedBracketCount = 0;
+            for(int i = left + 1; i < input.length(); i++) {
+                if(input.charAt(i) == '(') {
+                    nestedBracketCount++;
+                    continue;
+                }
+
+                if(input.charAt(i) == ')' && nestedBracketCount > 0) {
+                    nestedBracketCount--;
+                    continue;
+                }
+
+                if(input.charAt(i) == ')') {
+                    right = i + 1;
+                    break;
+                }
+            }
+
+            String subString = input.substring(left, right);
+            input = input.replace(subString, Double.toString(calculate(input.substring(left + 1, right - 1))));
+        }
+
+        while(!input.matches("^[0-9.]+$")){
+            if(input.contains("*")) {
+                input = numberParser(input.indexOf("*"), input, "*");
+            } else if (input.contains("/")) {
+                input = numberParser(input.indexOf("/"), input, "/");
+            } else if (input.contains("+")) {
+                input = numberParser(input.indexOf("+"), input, "+");
+            } else if (input.contains("-")) {
+                input = numberParser(input.indexOf("-"), input, "-");
+            }
+        }
+
+        return Double.parseDouble(input);
     }
 
-    private int Multiply(int number1, int number2) {
-        int result = number1 * number2;
-        System.out.println("result: " + result);
-        return  result;
-    }
 
-    private int Divide(int number1, int number2) {
-        int result = number1 / number2;
-        System.out.println("result: " + result);
-        return  result;
-    }
 
     public void calculator() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter first number");
-        int firstNumber = scanner.nextInt();
-
-        System.out.println("please type operation from following symbols: + - * /");
-        char operation = scanner.next().charAt(0);
-
-        System.out.println("please input second number");
-        int secondNumber = scanner.nextInt();
-
-        switch (operation) {
-            case '+':
-                Add(firstNumber, secondNumber);
-                break;
-            case '-':
-                Decrease(firstNumber, secondNumber);
-                break;
-            case '*':
-                Multiply(firstNumber, secondNumber);
-                break;
-            case '/':
-                if(firstNumber == 0 || secondNumber == 0) {
-                    System.err.println("Divide on/by 0 is forbidden");
-                }else {
-                    Divide(firstNumber, secondNumber);
-                }
-                break;
-            default:
-                System.err.println("Unknown operation detected");
-                break;
-        }
-    }
-
-    private Boolean assertEquals(int number1, int number2, int expected, BiFunction<Integer, Integer, Integer> cb){
-        return expected == cb.apply(number1, number2);
-    }
-
-    public void testCalculator() {
-        if(!assertEquals(1, 3, 4, this::Add)) {
-            System.err.println("Test failed. Add doesn't work");
-        }
-
-        if(!assertEquals(5, 2, 3, this::Decrease)) {
-            System.err.println("Test failed. Decrease doesn't work");
-        }
-
-        if(!assertEquals(3, 2, 6, this::Multiply)) {
-            System.err.println("Test failed. Add doesn't work");
-        }
-
-        if(!assertEquals(6, 2, 3, this::Divide)) {
-            System.err.println("Test failed. Add doesn't work");
-        }
-
-        System.out.println("All test passed. calculator works");
+        System.out.println("Please enter math problem");
+        //String input = scanner.nextLine();
+        String input = "3.5 + 2.8 * (4 - 1.2  * 2) / 2 + (10 - 2)";
+        input = input.replaceAll(" ", "");
+        System.out.println(input);
+        double result = calculate(input);
+        System.out.println("Answer is " + result);
     }
 }

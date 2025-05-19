@@ -16,18 +16,6 @@ public class AdvancedCalculator {
                 case "mod":
                     result = result % temp;
                 break;
-                case "plus":
-                    result += temp;
-                break;
-                case "minus":
-                    result -= temp;
-                break;
-                case "times":
-                    result *= temp;
-                break;
-                case "divide":
-                    result /= temp;
-                break;
                 default:
                     temp = Integer.parseInt(stringArray[i]);
                 break;
@@ -38,7 +26,7 @@ public class AdvancedCalculator {
 
     public void calculator() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("please enter your task e.g: 2 3 power 2 mod sqrt 3 plus 2 minus 4 times 2 divide");
+        System.out.println("please enter your task e.g: 2 3 power 2 mod sqrt");
         String calculateString = scanner.nextLine();
 
         double result = compute(calculateString);
