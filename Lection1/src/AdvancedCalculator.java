@@ -8,13 +8,25 @@ public class AdvancedCalculator {
         for(int i = 1; i < stringArray.length; i++){
             switch (stringArray[i]){
                 case "power":
-                        result = Math.pow(result, temp);
+                    result = Math.pow(result, temp);
                 break;
                 case "sqrt":
                     result = Math.sqrt(result);
                 break;
                 case "mod":
                     result = result % temp;
+                break;
+                case "plus":
+                    result += temp;
+                break;
+                case "minus":
+                    result -= temp;
+                break;
+                case "times":
+                    result *= temp;
+                break;
+                case "divide":
+                    result /= temp;
                 break;
                 default:
                     temp = Integer.parseInt(stringArray[i]);
@@ -26,7 +38,7 @@ public class AdvancedCalculator {
 
     public void calculator() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("please enter your task e.g: 2 3 power 2 mod sqrt");
+        System.out.println("please enter your task e.g: 2 3 power 2 mod sqrt 3 plus 2 minus 4 times 2 divide");
         String calculateString = scanner.nextLine();
 
         double result = compute(calculateString);
@@ -45,6 +57,26 @@ public class AdvancedCalculator {
         }
 
         if(compute("25 sqrt") != 5) {
+            System.err.println("Test failed, wrong calculation");
+            return;
+        }
+
+        if(compute("25 5 plus") != 30) {
+            System.err.println("Test failed, wrong calculation");
+            return;
+        }
+
+        if(compute("25 5 minus") != 20) {
+            System.err.println("Test failed, wrong calculation");
+            return;
+        }
+
+        if(compute("5 5 times") != 5) {
+            System.err.println("Test failed, wrong calculation");
+            return;
+        }
+
+        if(compute("25 5 divide") != 5) {
             System.err.println("Test failed, wrong calculation");
             return;
         }

@@ -22,51 +22,51 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        int factorialNumber = factorial.factorial(5);
-        System.out.println(factorialNumber);
-        factorial.testFactorial();
+//        int factorialNumber = factorial.factorial(5);
+//        System.out.println(factorialNumber);
+//        factorial.testFactorial();
+//
+//        palindrome.palidnrome("lukakul");
+//        palindrome.testPalindrome();
+//
+//        vowels.vowels("what`s up my man");
+//        vowels.testVowels();
+//
+//        greatestMember.greatestMember(new int[]{1, 7, 22, 8, 9, 12, 23, 66, 109, 12, 0});
+//        greatestMember.testGreatestMember();
+//
+//        invertArray.invertArray(new int[]{1,2,3,4,5,6, 7});
+//        invertArray.testInvertArray();
+//
+//        sortArray.sortArray(new int[]{5,1,23,55,-1,8,3, 22, 19, 0});
+//        sortArray.testSortArray();
+//
+//        calculator.calculator();
+//        calculator.testCalculator();
+//
+//        passwordGenerator.GeneratePassword();
+//        passwordGenerator.testPasswordGenerator();
+//
+//        advancedCalculator.calculator();
+//        advancedCalculator.testCalculator();
 
-        palindrome.palidnrome("lukakul");
-        palindrome.testPalindrome();
+        advancedPolindrome.advancedPolindrome("A mamá Roma le aviva el amor a mamá.");
 
-        vowels.vowels("what`s up my man");
-        vowels.testVowels();
-
-        greatestMember.greatestMember(new int[]{1, 7, 22, 8, 9, 12, 23, 66, 109, 12, 0});
-        greatestMember.testGreatestMember();
-
-        invertArray.invertArray(new int[]{1,2,3,4,5,6, 7});
-        invertArray.testInvertArray();
-
-        sortArray.sortArray(new int[]{5,1,23,55,-1,8,3, 22, 19, 0});
-        sortArray.testSortArray();
-
-        calculator.calculator();
-        calculator.testCalculator();
-
-        passwordGenerator.GeneratePassword();
-        passwordGenerator.testPasswordGenerator();
-
-        advancedCalculator.calculator();
-        advancedCalculator.testCalculator();
-
-        advancedPolindrome.advancedPolindrome("la ruta natuRaL");
-
-        wordCounter.wordCounter();
-        wordCounter.testWordCounter();
-
-        characterReplacer.characterReplacer();
-        characterReplacer.testReplacer();
-
-        primeNumbers.primeNumbers();
-        primeNumbers.testPirmeNumber();
-
-        searchWordInSentence.searchWordInSentence();
-        searchWordInSentence.testWordFinder();
-
-        temperature.temperature();
-        temperature.testTemperatureConverter();
-
-        textAnalyser.textAnalyser();
+//        wordCounter.wordCounter();
+//        wordCounter.testWordCounter();
+//
+//        characterReplacer.characterReplacer();
+//        characterReplacer.testReplacer();
+//
+//        primeNumbers.primeNumbers();
+//        primeNumbers.testPirmeNumber();
+//
+//        searchWordInSentence.searchWordInSentence();
+//        searchWordInSentence.testWordFinder();
+//
+//        temperature.temperature();
+//        temperature.testTemperatureConverter();
+//
+//        textAnalyser.textAnalyser();
     }
 }
