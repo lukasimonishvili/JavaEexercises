@@ -50,7 +50,7 @@ public class Maze {
         String[] indexArr = indexes.split("-");
         int row = Integer.parseInt(indexArr[0]);
         int col = Integer.parseInt(indexArr[1]);
-        String exitDirection = row == 0 ? "top" : row == this.width - 1 ? "bottom" : col == 0 ? "left" : col == this.height - 1 ? "right" : "no";
+        String exitDirection = row == 0 ? "top" : row == this.height - 1 ? "bottom" : col == 0 ? "left" : col == this.width - 1 ? "right" : "no";
         if(exitDirection.equals("no") || exitDirection.equals(entranceWall)) return;
         this.isExitFound = true;
         switch (exitDirection) {
@@ -76,7 +76,7 @@ public class Maze {
         int oldCol = Integer.parseInt(oldArr[1]);
         int newRow = Integer.parseInt(newArr[0]);
         int newCol = Integer.parseInt(newArr[1]);
-        String direction = oldRow > newRow ? "up" : oldRow < newRow ? "down" : oldCol > newCol ? "left" : "right";
+        String direction = oldRow > newRow ? "top" : oldRow < newRow ? "bottom" : oldCol > newCol ? "left" : "right";
         switch (direction) {
             case "left":
                 this.maze[oldRow][oldCol][0] = 0;
@@ -86,11 +86,11 @@ public class Maze {
                 this.maze[oldRow][oldCol][2] = 0;
                 this.maze[newRow][newCol][0] = 0;
             break;
-            case "up":
+            case "top":
                 this.maze[oldRow][oldCol][1] = 0;
                 this.maze[newRow][newCol][3] = 0;
             break;
-            case "down":
+            case "bottom":
                 this.maze[oldRow][oldCol][3] = 0;
                 this.maze[newRow][newCol][1] = 0;
             break;
