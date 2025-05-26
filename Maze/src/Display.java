@@ -1,62 +1,62 @@
 public class Display {
-    private int[][][] maze;
+    private final int[][][] maze;
 
     public Display(int[][][] maze) {
         this.maze = maze;
     }
 
     public void drawMaze() {
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for(int i = 0; i < this.maze.length ; i++) {
-            result += drawHorizontalLine(i);
-            result += drawVerticalLines(i);
+            result.append(drawHorizontalLine(i));
+            result.append(drawVerticalLines(i));
         }
-        result += drawLastLine();
+        result.append(drawLastLine());
         System.out.println(result);
     }
 
     private String drawHorizontalLine(int rowIndex) {
-        String result = "#";
+        StringBuilder result = new StringBuilder("#");
         for(int i = 0; i < this.maze[rowIndex].length; i++) {
             if(this.maze[rowIndex][i][1] == 1) {
-                result += "###";
+                result.append("###");
             }else {
-                result += "\u0020\u0020#";
+                result.append("  #");
             }
         }
-        result += "\n";
-        return result;
+        result.append("\n");
+        return result.toString();
     }
 
     private String drawVerticalLines(int rowIndex) {
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for(int i = 0; i < this.maze[rowIndex].length; i++) {
             if(this.maze[rowIndex][i][0] == 1) {
-                result += "#\u0020\u0020";
+                result.append("#  ");
             }else {
-                result += "\u0020\u0020\u0020";
+                result.append("   ");
             }
 
         }
         if(this.maze[rowIndex][this.maze[rowIndex].length - 1][2] == 1){
-            result += "#";
+            result.append("#");
         }else {
-            result += "\u0020";
+            result.append(" ");
         }
-        result += "\n";
-        return result;
+        result.append("\n");
+        return result.toString();
     }
 
     private String drawLastLine() {
-        String result = "#";
+        StringBuilder result = new StringBuilder("#");
         for(int i = 0; i < this.maze[this.maze.length - 1].length; i++) {
             if(this.maze[this.maze.length - 1][i][3] == 1) {
-                result += "###";
+                result.append("###");
             }else {
-                result += "\u0020\u0020#";
+                result.append("  #");
             }
         }
-        return result;
+        return result.toString();
     }
 
 }

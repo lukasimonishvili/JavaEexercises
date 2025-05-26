@@ -3,14 +3,15 @@ import java.util.List;
 import java.util.Random;
 
 public class Maze {
-    private int width;
-    private int height;
+    private final int width;
+    private final int height;
     public int[][][] maze;
-    private Random random = new Random();
-    private List<String> visited = new ArrayList<String>();
-    private List<String> drawingPath = new ArrayList<String>();
+    private final Random random = new Random();
+    private final List<String> visited = new ArrayList<>();
+    private final List<String> drawingPath = new ArrayList<>();
     private boolean isExitFound = false;
     private String entranceWall = "";
+    private int openExitTries = 0;
 
     public Maze(int with, int height) {
         this.width = with;
@@ -52,6 +53,10 @@ public class Maze {
         int col = Integer.parseInt(indexArr[1]);
         String exitDirection = row == 0 ? "top" : row == this.height - 1 ? "bottom" : col == 0 ? "left" : col == this.width - 1 ? "right" : "no";
         if(exitDirection.equals("no") || exitDirection.equals(entranceWall)) return;
+        if(this.openExitTries > 5) {
+            this.openExitTries++;
+            return;
+        }
         this.isExitFound = true;
         switch (exitDirection) {
             case "top":
@@ -98,7 +103,7 @@ public class Maze {
     }
 
     private List<String> getNeighbors(String indexes) {
-        List<String> result = new ArrayList<String>();
+        List<String> result = new ArrayList<>();
         String[] indexList = indexes.split("-");
         int row = Integer.parseInt(indexList[0]);
         int col = Integer.parseInt(indexList[1]);
@@ -122,10 +127,10 @@ public class Maze {
     }
 
     private void openEntrance() {
-        int index = this.random.nextInt(4);
-        int randomIndex = -1;
+        int wallIndex = this.random.nextInt(4);
+        int randomIndex;
         String randomSquare = "";
-        switch (index) {
+        switch (wallIndex) {
             case 0:
                 randomIndex = this.random.nextInt(this.height);
                 randomSquare = randomIndex + "-0";
