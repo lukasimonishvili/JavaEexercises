@@ -1,4 +1,5 @@
 import Drinks.DrinkMenu;
+import Entrances.EventSeller;
 import Pets.VirtualPetGame;
 import School.School;
 import Vehicles.Garage;
@@ -10,6 +11,7 @@ public class Main {
     public static Garage garage = new Garage();
     public static School school = new School();
     public static VirtualPetGame virtualPetGame = new VirtualPetGame();
+    public static EventSeller eventSeller = new EventSeller();
 
     public static void main(String[] args) {
         zoo.makeNoises();
@@ -17,6 +19,7 @@ public class Main {
         garage.startAllVehicles();
         school.displaySchoolMembers();
         virtualPetGame.interactWithPets();
+        eventSeller.logAllEvents();
     }
 }
 
