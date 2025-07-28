@@ -1,0 +1,802 @@
+[
+  {
+    "id": "5170e94f-77c3-44c6-9952-3e73cc51d663",
+    "title": "Fundamentals of JavaScript",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "02f36fb3-70ad-4d9b-a461-d5f9394458d5",
+    "title": "Exploring Cloud Computing",
+    "description": "Prepare for certification and career advancement.",
+    "category": "Cloud",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "19f9a067-2f9e-4fce-9e55-92bd450ae5a0",
+    "title": "Building Cybersecurity",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Security",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "03a0ace0-2758-4e70-9d18-21b21ae2d0d1",
+    "title": "Complete Guide to DevOps",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "125f726e-45a5-42fc-9b6d-a453e0842add",
+    "title": "Introduction to Data Science",
+    "description": "Prepare for certification and career advancement.",
+    "category": "Security",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "d12b5ff4-cd96-4223-91b1-068473f45670",
+    "title": "Exploring Data Science",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Programming",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "0f5fc814-4247-4971-9e4b-bf69e938c4a5",
+    "title": "Hands-On Cloud Computing",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Programming",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "f24feb07-9f24-42b8-a170-6419468c6518",
+    "title": "Building DevOps",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Programming",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "835085c6-f986-4b01-9325-85886b07ff91",
+    "title": "Advanced Cybersecurity",
+    "description": "Prepare for certification and career advancement.",
+    "category": "Security",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "a0c6ec5f-0877-4e36-9d1b-4f589d677296",
+    "title": "Mastering Cybersecurity",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Security",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "3887956f-172e-4561-b476-9c5441a21c56",
+    "title": "Exploring Cybersecurity",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "AI & Machine Learning",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "0371e3f0-3b35-4d6a-b952-b844a3c32b73",
+    "title": "Complete Guide to Data Science",
+    "description": "Understand the core concepts in depth.",
+    "category": "Programming",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "99087482-a062-492c-b544-2fc0c3870b8d",
+    "title": "Introduction to Machine Learning",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "5581fff7-9b4b-42be-88ee-b318cd88341a",
+    "title": "Building Python",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Software Engineering",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "7f8ca9ac-b587-4f78-8ef3-bb0a0218be99",
+    "title": "Fundamentals of Machine Learning",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "14c0b27a-748f-4bab-ab87-5c34881d5f0b",
+    "title": "Hands-On Web Development",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Web Development",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "5698f8d3-e57f-42d3-b64c-2a7c8582086f",
+    "title": "Exploring Data Science",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "Web Development",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "23526bcb-acd4-41a5-9a9d-e2a526fa3c03",
+    "title": "Fundamentals of Web Development",
+    "description": "Understand the core concepts in depth.",
+    "category": "Data Science",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "36024b5f-7e9e-4db4-863a-d4033f8f2ae4",
+    "title": "Fundamentals of DevOps",
+    "description": "Understand the core concepts in depth.",
+    "category": "Cloud",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "9b8cf37a-a044-4296-a0a8-7226059b209e",
+    "title": "Practical DevOps",
+    "description": "Understand the core concepts in depth.",
+    "category": "DevOps",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "5d45b142-cd02-46e9-8356-2b4466fadcb8",
+    "title": "Building Data Science",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "Cloud",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "5cd1c6e7-d98d-45c0-96ee-fd15bf259ce3",
+    "title": "Crash Course in Cloud Computing",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Data Science",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "1484b24c-4116-4a6c-b6e8-f26466893c01",
+    "title": "Crash Course in React",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Security",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "b9ebe067-5579-468a-9f48-6c6118a8d102",
+    "title": "Fundamentals of Python",
+    "description": "Understand the core concepts in depth.",
+    "category": "Data Science",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "1b70de59-3d33-4ad4-ac8f-be4b423d3ac4",
+    "title": "Complete Guide to Cybersecurity",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Programming",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "25d33b39-691f-4c5d-aec2-a06dabe23152",
+    "title": "Crash Course in Python",
+    "description": "Understand the core concepts in depth.",
+    "category": "Software Engineering",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "cffb2597-3911-4288-92fb-111f5f8bdf16",
+    "title": "Practical Data Science",
+    "description": "Prepare for certification and career advancement.",
+    "category": "AI & Machine Learning",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "10125ef7-b7e0-449b-a21f-d0012148aa85",
+    "title": "Hands-On Web Development",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Security",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "828b2069-dc6a-460e-8b7a-6104e95749e1",
+    "title": "Complete Guide to DevOps",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "AI & Machine Learning",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "0e3d7e0e-a544-4800-9ff5-16860c8a0c89",
+    "title": "Introduction to JavaScript",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "Programming",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "a3a65006-7b44-4f20-979d-0bcff0efe883",
+    "title": "Building Databases",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "7f6f287b-53b0-4302-8e9e-191108e06658",
+    "title": "Fundamentals of JavaScript",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "6c211d5b-2a6b-4361-8c71-b8835a7b65d1",
+    "title": "Hands-On Data Science",
+    "description": "Understand the core concepts in depth.",
+    "category": "AI & Machine Learning",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "fcadeff5-516a-47d3-9353-c26dcc6fd630",
+    "title": "Crash Course in Cloud Computing",
+    "description": "Understand the core concepts in depth.",
+    "category": "Software Engineering",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "106ef098-7d72-46c3-b5a4-4a432c7b7796",
+    "title": "Crash Course in Cybersecurity",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Data Science",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "af68e3a3-df19-4c51-9485-ce4cdc8f1e7a",
+    "title": "Introduction to Cloud Computing",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "6524e275-6393-4005-b0a2-abc7b7057952",
+    "title": "Building Data Science",
+    "description": "Prepare for certification and career advancement.",
+    "category": "Programming",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "cb3c8d5c-6316-4951-80cb-dbdc9a043038",
+    "title": "Crash Course in Web Development",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Software Engineering",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "25996f61-dda1-4ac3-86ce-2d1184e48f39",
+    "title": "Introduction to DevOps",
+    "description": "Understand the core concepts in depth.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "60784ec7-89bd-4f89-9475-67a7e24691fd",
+    "title": "Hands-On Web Development",
+    "description": "Understand the core concepts in depth.",
+    "category": "Cloud",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "e09c5514-2e4d-4c42-bf9c-1dfef9d12172",
+    "title": "Complete Guide to Web Development",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "538b98a7-1521-4ca5-96ac-d0755d1a7386",
+    "title": "Advanced Cloud Computing",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Web Development",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "340d17d7-36ba-4b39-bf96-853f15a8f92d",
+    "title": "Mastering Cybersecurity",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "Web Development",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "6bacc2d7-bc38-4bfe-975a-37f8627986f7",
+    "title": "Advanced Databases",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Programming",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "a927330c-3315-4151-8166-1881e0370f7f",
+    "title": "Complete Guide to JavaScript",
+    "description": "Understand the core concepts in depth.",
+    "category": "Data Science",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "cdab6b04-1bbb-431b-96ca-ec79f0bfe9dd",
+    "title": "Fundamentals of DevOps",
+    "description": "Prepare for certification and career advancement.",
+    "category": "Cloud",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "6b33c472-5429-48c5-9575-ac41771808ca",
+    "title": "Exploring Data Science",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Cloud",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "9169aa27-53b0-48b7-a2a4-100da3e15f43",
+    "title": "Introduction to Cybersecurity",
+    "description": "Understand the core concepts in depth.",
+    "category": "DevOps",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "8975baba-3ce9-449c-96bd-42b3053ede9c",
+    "title": "Exploring React",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Data Science",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "29a80eae-964b-4fd3-9075-e2afcf35b97f",
+    "title": "Crash Course in Machine Learning",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Software Engineering",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "1bbceb1a-fb53-4a27-8822-9dd10568c4ba",
+    "title": "Introduction to Data Science",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "AI & Machine Learning",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "5380ddd6-63e2-4d60-bfb1-286f78cb915e",
+    "title": "Practical Python",
+    "description": "Prepare for certification and career advancement.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "a86d0601-345e-477b-9561-706af9503375",
+    "title": "Exploring DevOps",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "313beb4c-af5a-4927-9b13-20ae428cf888",
+    "title": "Fundamentals of Cybersecurity",
+    "description": "Understand the core concepts in depth.",
+    "category": "Cloud",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "8553640d-8e6a-4e02-bc8a-b2ecd9d3d498",
+    "title": "Exploring Machine Learning",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "52f6dde0-a221-46f5-a363-50551172b7b3",
+    "title": "Building Cybersecurity",
+    "description": "Understand the core concepts in depth.",
+    "category": "AI & Machine Learning",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "3a9f5f9e-cdd4-4be4-8102-9650de5d6de0",
+    "title": "Fundamentals of Cloud Computing",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Data Science",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "48e85d91-a7fd-4f0b-b522-fa1ca84e1167",
+    "title": "Advanced Data Science",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "bebcb860-68f3-43c6-9129-af1701a08dca",
+    "title": "Advanced React",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "Data Science",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "5bf9ad13-9e99-430e-bb95-d36291afb5a3",
+    "title": "Introduction to React",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "Data Science",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "53f601cd-4ee7-43aa-9c4a-303a831ff1cb",
+    "title": "Advanced Cloud Computing",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "Programming",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "0bca6bab-e855-4a67-a4a6-4e6970319f44",
+    "title": "Building Data Science",
+    "description": "Prepare for certification and career advancement.",
+    "category": "Data Science",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "2a115b15-7e56-466d-b487-4ff78aeed6e7",
+    "title": "Exploring Machine Learning",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Cloud",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "9b115625-6a3e-4635-a1ac-540e40dde876",
+    "title": "Practical React",
+    "description": "Understand the core concepts in depth.",
+    "category": "Programming",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "b7c15591-1e4f-48c5-9eba-9de917708cab",
+    "title": "Introduction to Data Science",
+    "description": "Understand the core concepts in depth.",
+    "category": "Security",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "0a53d0ba-9d3f-47fe-932b-c2472a468b1c",
+    "title": "Building Web Development",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "Data Science",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "aeb5d076-fd37-4adb-b19e-d9d5f20bd8a8",
+    "title": "Advanced Cloud Computing",
+    "description": "Understand the core concepts in depth.",
+    "category": "AI & Machine Learning",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "ea7fa24f-1916-4879-8537-07953033b1e6",
+    "title": "Practical Web Development",
+    "description": "Understand the core concepts in depth.",
+    "category": "Programming",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "b695d2f7-8ad3-4300-b1dc-0eb4fb066e0b",
+    "title": "Building Machine Learning",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "Programming",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "069393f6-65b2-4921-9ce0-4bd6a56fbc92",
+    "title": "Hands-On React",
+    "description": "Prepare for certification and career advancement.",
+    "category": "Programming",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "e989a3fc-d4df-4f56-8afc-2c073949e738",
+    "title": "Advanced JavaScript",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "DevOps",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "68ddd7b1-a64a-427d-b77b-eb8d4e5506d7",
+    "title": "Advanced React",
+    "description": "Understand the core concepts in depth.",
+    "category": "Cloud",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "c4d89c4b-5681-49ed-bb92-610d1ea92ca2",
+    "title": "Building Web Development",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "DevOps",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "85c40b54-7c81-4ba4-ac1b-0da2eca19490",
+    "title": "Complete Guide to Machine Learning",
+    "description": "Understand the core concepts in depth.",
+    "category": "Data Science",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "24f97fae-09a6-447a-968b-2f50aee7b554",
+    "title": "Advanced Python",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "DevOps",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "a2a0e0e4-ccc9-446d-bcd0-239357b1edb4",
+    "title": "Crash Course in React",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "DevOps",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "d49f2c94-b05d-4014-99fe-46c3d9cdf6b1",
+    "title": "Exploring Cloud Computing",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Data Science",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "bb746ea6-40ee-4f97-926f-2198f4da745d",
+    "title": "Complete Guide to JavaScript",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "Security",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "d0978a84-067d-47fb-83a4-b2ab524d3259",
+    "title": "Exploring JavaScript",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Programming",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "10736ceb-6e23-40bb-a41a-4fd290289d94",
+    "title": "Complete Guide to Cloud Computing",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "DevOps",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "9513c77f-cd75-4760-b99c-de769e8d8ddf",
+    "title": "Introduction to Web Development",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "Web Development",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "ff2f9ef2-1ab9-45d1-bc11-a87900fae53e",
+    "title": "Crash Course in Machine Learning",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Data Science",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "627ef335-0d88-46be-9c98-90149d96b1db",
+    "title": "Complete Guide to Databases",
+    "description": "Prepare for certification and career advancement.",
+    "category": "Security",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "b25adcbf-1647-43c5-b738-af94f6006cdf",
+    "title": "Exploring Cloud Computing",
+    "description": "Understand the core concepts in depth.",
+    "category": "DevOps",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "498b6b59-35db-4f0a-8554-61046c8aa3cf",
+    "title": "Practical Data Science",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Cloud",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "ea80ffbc-0a20-4721-881d-47b518c1cea7",
+    "title": "Fundamentals of React",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "AI & Machine Learning",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "15796289-3949-48ba-a61c-3559c87a961d",
+    "title": "Exploring Python",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "Web Development",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "9eed1ea6-35ed-48cf-96df-d17f6f0b6a8f",
+    "title": "Practical Cybersecurity",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Cloud",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "f38b47a5-bbd4-41d3-a336-a7600e57355e",
+    "title": "Hands-On DevOps",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Software Engineering",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "f8971c9b-9c38-4607-a6bb-8123054eba49",
+    "title": "Hands-On Databases",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "DevOps",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "c06d5c35-13e5-4df5-8a53-c3936ee3d2ec",
+    "title": "Crash Course in Data Science",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "AI & Machine Learning",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "cca85496-6985-41e9-a175-f2507dde4c8d",
+    "title": "Advanced Databases",
+    "description": "Get hands-on experience with real-world projects.",
+    "category": "Data Science",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "fa31061c-46d0-44bc-8ca1-60394189ce58",
+    "title": "Complete Guide to Python",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Security",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "0819df60-4d68-4583-ae68-0ec2672c1e92",
+    "title": "Exploring JavaScript",
+    "description": "Understand the core concepts in depth.",
+    "category": "AI & Machine Learning",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "03213006-af47-414f-827d-f26c0bcfa2b3",
+    "title": "Complete Guide to DevOps",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Data Science",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "af75f7f6-9478-453c-ba49-fdb68c36803e",
+    "title": "Crash Course in Cloud Computing",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Data Science",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "0079e09c-0b3d-434c-a957-3ff1eb1cb196",
+    "title": "Mastering Machine Learning",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "AI & Machine Learning",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "09ff2bcd-7c87-4854-a3d2-62a125e87de2",
+    "title": "Complete Guide to DevOps",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Security",
+    "level": "basic",
+    "price": 29.99
+  },
+  {
+    "id": "3cba1693-e865-40f7-bb7e-97d6306d447c",
+    "title": "Hands-On JavaScript",
+    "description": "Learn the basics and build a strong foundation.",
+    "category": "Security",
+    "level": "advanced",
+    "price": 29.99
+  },
+  {
+    "id": "44f24d5a-ffb9-44f2-a3e7-973e3d7d72a8",
+    "title": "Mastering DevOps",
+    "description": "A comprehensive guide to take your skills to the next level.",
+    "category": "Web Development",
+    "level": "basic",
+    "price": 29.99
+  }
+]
